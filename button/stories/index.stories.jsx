@@ -1,4 +1,3 @@
-import { render } from 'solid-js/web';
 import { Button } from '..';
 
 export default {
@@ -9,9 +8,7 @@ export default {
   },
 };
 
-export const button = () => ({
-  _$story_type$: 'RenderProp',
-  render(root) {
-    render(() => <Button>Hello Rioters 🤘 ! </Button>, root);
-  },
-});
+export const button = () => () => <Button>Button</Button>;
+
+export const button_with_href = () => () =>
+  <Button href="https://backlight.dev">Link</Button>;
