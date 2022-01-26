@@ -1,3 +1,3 @@
-# SolidJS + styled-components TS
+# SolidJS
 
-WIP
+Stream with Ryan 25 Jan 2022
